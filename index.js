@@ -14,12 +14,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors())
 
 
-const firstArray = ["1", "2", "3", "4", "5"]
-const secondArray = ["1", "2"]
-
-console.log(_.nth(firstArray,-3), "----------------------------------")
-
-
 
 const bankController = require('./Controllers/Bank Controller/bankController')
 const branchController = require('./Controllers/Branch Controller/branchController')
